@@ -4,7 +4,6 @@
 body {
     font-family: "Trebuchet MS",sans-serif;
     font-weight: 600;
-    color:white;
     margin: 0;
     text-align:center
 }
@@ -25,4 +24,50 @@ roman {
 
 [id^="label"] {
     font-size: 40px
+}
+
+[id^="red1"] {
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    float:left
+}
+[id^="red2"] {
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+}
+[id^="red3"] {
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+    font-size: 40px;
+}
+[id^="red4"] {
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+    font-size: 40px;
+}
+[id^="redbox"] {
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    float: right
+}
+[id^="score"] {
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
 }
