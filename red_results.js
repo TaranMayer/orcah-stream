@@ -16,10 +16,10 @@ function initTriple() {
       data = JSON.parse(event.data);
         if (data.api == "Livestream_Results") {
             console.log(data);
-            document.querySelector('#red1').innerHTML = data.r_rank;
+            //document.querySelector('#red1').innerHTML = data.r_rank;
             document.querySelector('#red2').innerHTML = data.red;
-            document.querySelector('#red3').innerHTML = data.r_name;
-            document.querySelector('#red4').innerHTML = data.r_state;
+            //document.querySelector('#red3').innerHTML = data.r_name;
+            //document.querySelector('#red4').innerHTML = data.r_state;
       }
       else {
           console.log(data.api)
