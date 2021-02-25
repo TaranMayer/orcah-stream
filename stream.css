@@ -46,14 +46,14 @@ roman {
     font-family: "Trebuchet MS",sans-serif;
     font-weight: 600;
     margin: 0;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
 }
 [id^="red4"] {
     font-family: "Trebuchet MS",sans-serif;
     font-weight: 600;
     margin: 0;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
 }
 [id^="redbox"] {
@@ -70,4 +70,7 @@ roman {
     margin: 0;
     text-align: center;
     font-size: 40px;
+}
+[id^="namebox"] {
+    margin: 0 auto;
 }
