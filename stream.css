@@ -2,11 +2,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
 body {
-    font-family: "Trebuchet MS",sans-serif;
-    font-weight: 600;
-    color:white;
+    font-family: "Arial Black";
+    font-weight: bolder;
     margin: 0;
-    text-align:center
+    text-align: center;
+    font-size: 40px;
 }
 
 b, strong {
@@ -28,46 +28,46 @@ roman {
 }
 
 [id^="red1"] {
-    font-family: "Trebuchet MS",sans-serif;
-    font-weight: 600;
+    font-family: "Arial Black";
+    font-weight: bolder;
     margin: 0;
     text-align: center;
     font-size: 40px;
-    float:left
+    float: left
 }
 [id^="red2"] {
-    font-family: "Trebuchet MS",sans-serif;
-    font-weight: 600;
+    font-family: "Arial Black";
+    font-weight: bolder;
     margin: 0;
     text-align: center;
     font-size: 40px;
     display: inline-block;
 }
 [id^="red3"] {
-    font-family: "Trebuchet MS",sans-serif;
-    font-weight: 600;
+    font-family: "Arial Black";
+    font-weight: bolder;
     margin: 0;
     text-align: center;
     font-size: 40px;
 }
 [id^="red4"] {
-    font-family: "Trebuchet MS",sans-serif;
-    font-weight: 600;
+    font-family: "Arial Black";
+    font-weight: bolder;
     margin: 0;
     text-align: center;
     font-size: 40px;
 }
 [id^="redbox"] {
-    font-family: "Trebuchet MS",sans-serif;
-    font-weight: 600;
+    font-family: "Arial Black";
+    font-weight: bolder;
     margin: 0;
     text-align: center;
     font-size: 40px;
     float: right
 }
 [id^="score"] {
-    font-family: "Trebuchet MS",sans-serif;
-    font-weight: 600;
+    font-family: "Arial Black";
+    font-weight: bolder;
     margin: 0;
     text-align: center;
     font-size: 40px;
