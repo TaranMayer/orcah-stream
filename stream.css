@@ -4,13 +4,12 @@
 body {
     font-family: "Arial Black";
     font-weight: bolder;
+    color: white;
     margin: 0;
-    text-align: center;
-    font-size: 40px;
+    text-align: center
 }
 
 b, strong {
-    
 }
 
 h1, h2, h3, h4, h5 {
@@ -32,46 +31,58 @@ roman {
     font-weight: bolder;
     margin: 0;
     text-align: center;
+    color: white;
     font-size: 40px;
     float: left
 }
+
 [id^="red2"] {
     font-family: "Arial Black";
     font-weight: bolder;
     margin: 0;
     text-align: center;
+    color: white;
     font-size: 40px;
     display: inline-block;
 }
+
 [id^="red3"] {
     font-family: "Arial Black";
     font-weight: bolder;
     margin: 0;
     text-align: center;
+    color: white;
     font-size: 40px;
 }
+
 [id^="red4"] {
     font-family: "Arial Black";
     font-weight: bolder;
     margin: 0;
     text-align: center;
+    color: white;
     font-size: 40px;
 }
+
 [id^="redbox"] {
     font-family: "Arial Black";
     font-weight: bolder;
     margin: 0;
     text-align: center;
+    color: white;
     font-size: 40px;
     float: right
 }
+
 [id^="score"] {
     font-family: "Arial Black";
     font-weight: bolder;
     margin: 0;
     text-align: center;
+    color: white;
     font-size: 40px;
 }
+
 [id^="namebox"] {
     margin: 0 auto;
 }
