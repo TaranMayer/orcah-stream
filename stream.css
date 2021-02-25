@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&family=Oxygen:wght@700&family=Roboto+Slab:wght@300;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+body {
+    font-family: "Arial",sans-serif;
+    font-weight: 300;
+    margin: 0
+}
+
+b, strong {
+    font-weight: 900
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Arial",sans-serif
+}
+
+roman {
+    font-family: "Roboto Slab",serif
+}
+
+
+
+[id^="label"] {
+    font-size: 40px
+}
