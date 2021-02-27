@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&family=Oxygen:wght@700&family=Roboto+Slab:wght@300;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+body {
+    font-family: "Arial Black";
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+div.table {
+    max-width: 100%;
+    overflow: auto
+}
+
+table:not(.framed) {
+    border-collapse: collapse;
+    display: inline-table
+}
+
+    table:not(.framed) th,
+    table:not(.framed) td {
+        border: 1px solid #808080;
+        padding: 10px 16px;
+        text-align: center;
+        white-space: nowrap
+    }
+
+    table:not(.framed) th {
+        border-bottom-width: 4px
+    }
+
+    table:not(.framed).hoverable tr:not(:hover) th {
+        background: #ADADAD
+    }
+
+    table:not(.framed):not(.hoverable) th {
+        background: #ADADAD
+    }
+
+table.framed {
+    border: 2px solid #808080;
+    background: #ADADAD;
+    padding: 20px;
+    margin: 30px 0
+}
+
+@media (max-width:1000px) {
+    table.framed {
+        width: 100%
+    }
+}
+
+@media (max-width:500px) {
+    table.framed {
+        margin: 8px 0
+    }
+}
+
+table.framed th,
+table.framed td {
+    padding: 4px;
+    text-align: left
+}
